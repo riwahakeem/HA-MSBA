@@ -167,6 +167,7 @@ if "🌎 Data Exploration: Worldwide" in pressed:
                       
     if my_page == 'Age': 
             select =st.sidebar.selectbox('Filter by Age:',options=['All ages','Children 0-14','Adolescent 10-19','Young Adults 15-24', 'Adults 15-49','Adults 50+'])
+            col1, col2= st.beta_columns(2)  
             with col1:
                 st.image(image, use_column_width=None,clamp=True)
                 if 'All ages' in select:
@@ -208,7 +209,7 @@ if "🌎 Data Exploration: Worldwide" in pressed:
                     if 'Adults 50+' in select:
                         st.markdown(f"<h3 style='text-align:left; color: offblack;' >{new_oldadults_number} </h3>", unsafe_allow_html=True)
                         st.write("Adults 50+ newly infected with HIV in 2020") 
-
+            col3, col4= st.beta_columns(2)
             with col3:
                     st.image(image2, use_column_width=None,clamp=True) 
                     if 'All ages' in select:
