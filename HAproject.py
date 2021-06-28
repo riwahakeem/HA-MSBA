@@ -220,7 +220,7 @@ if "🌎 Data Exploration: Worldwide" in pressed:
                         st.write("Children 0-14 died of HIV-related causes in 2020")
                     if 'Adolescent 10-19' in select:
                         st.markdown(f"<h3 style='text-align:left; color: offblack;' >{death_Adsocelent_number} </h3>", unsafe_allow_html=True)
-                        st.write("'Adolescent 10-19 died of HIV-related causes in 2020")
+                        st.write("Adolescent 10-19 died of HIV-related causes in 2020")
                     if 'Young Adults 15-24' in select:
                         st.markdown(f"<h3 style='text-align:left; color: offblack;' >{death_youngadults_number} </h3>", unsafe_allow_html=True)
                         st.write("Young Adults 15-24 died of HIV-related causes in 2020")
