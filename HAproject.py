@@ -167,7 +167,6 @@ if "🌎 Data Exploration: Worldwide" in pressed:
                       
     if my_page == 'Age': 
             select =st.sidebar.selectbox('Filter by Age:',options=['All ages','Children 0-14','Adolescent 10-19','Young Adults 15-24', 'Adults 15-49','Adults 50+'])
-
             with col1:
                 st.image(image, use_column_width=None,clamp=True)
                 if 'All ages' in select:
